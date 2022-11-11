@@ -1,14 +1,14 @@
 # AchrafYndz
 ![Hi there](images/hero.svg)
 
-I'm a computer science student from Belgium.
+### I'm a computer science student from Belgium.
 
 
-## Skills 🛠️
+## Languages 🛠️
 
-### Mastered
+### Fluent
 
-[![My Skills](https://skillicons.dev/icons?i=python,cpp,assembly)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,cpp)](https://skillicons.dev)
 
 ### Currently learning
 
@@ -16,5 +16,5 @@ I'm a computer science student from Belgium.
 
 ## My stats 📊
 
-[![Achraf's GitHub stats](https://github-readme-stats.vercel.app/api?username=AchrafYndz&count_private=true&theme=nord&show_icons=true)](https://github.com/AchrafYndz/AchrafYndz)  
+[![Achraf's GitHub stats](https://github-readme-stats.vercel.app/api?username=AchrafYndz&count_private=true&theme=github_dark&show_icons=true)](https://github.com/AchrafYndz/AchrafYndz)  
 
