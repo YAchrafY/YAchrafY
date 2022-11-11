@@ -10,8 +10,7 @@
       .container {
         overflow: hidden;
         color: rgba(255,255,255,.75);
-        font-family: 'Anonymous Pro', monospace;  
-        background: rgb(25,25,25);
+        font-family: 'Anonymous Pro', monospace; 
         /*background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 85%, rgba(25,25,25,0) 100%);*/
 
         width: 800px;
