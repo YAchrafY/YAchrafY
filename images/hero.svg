@@ -1,53 +1,66 @@
 <svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
-		
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				/* Google Fonts */
+				@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
-  <div xmlns="http://www.w3.org/1999/xhtml">
-    <style>
-      /* Google Fonts */
-      @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
+				.container {
+					overflow: hidden;
+					color: rgba(255,255,255,.75);
+					font-family: 'Anonymous Pro', monospace;
 
-      .container {
-        overflow: hidden;
-        color: rgba(255,255,255,.75);
-        font-family: 'Anonymous Pro', monospace; 
-        /*background: linear-gradient(180deg, rgba(25,25,25,1) 0%, rgba(25,25,25,1) 85%, rgba(25,25,25,0) 100%);*/
+					width: 800px;
+					height: 200px;
 
-        width: 800px;
-        height: 200px;
+					display: flex;
+					justify-content: center;
+					align-items: center;
+				}
+				.line-1 {
+					width: 24em;
+					margin: 0 auto;
+					border-right: 2px solid rgba(255,255,255,.75);
+					font-size: 180%;
+					text-align: center;
+					white-space: nowrap;
+					overflow: hidden;
+				}
 
-        display: flex;
-        justify-content: center;
-        align-items:center;
-      }
-      .line-1{
-          width: 24em;
-          margin: 0 auto;
-          border-right: 2px solid rgba(255,255,255,.75);
-          font-size: 180%;
-          text-align: center;
-          white-space: nowrap;
-          overflow: hidden;
-      }
-
-      /* Animation */
-      .anim-typewriter{
-        animation: typewriter 2s steps(22) 0.5s 1 normal both,
-                  blinkTextCursor 500ms steps(22) infinite normal;
-      }
-      @keyframes typewriter{
-        from{width: 0;}
-        to{width: 16em;}
-      }
-      @keyframes blinkTextCursor{
-        from{border-right-color: rgba(255,255,255,.75);}
-        to{border-right-color: transparent;}
-      }
-    </style>
-    <div class="container">
-      <p class="line-1 anim-typewriter">Hey there 👋 I'm Achraf</p>
-    </div>
-  </div>
-
+				/* Animation */
+				.anim-typewriter {
+					animation: typewriter 2s steps(22) 0.5s 1 normal both,
+					blinkTextCursor 500ms steps(22) infinite normal;
+				}
+				@keyframes typewriter {
+					from { width: 0; }
+					to { width: 16em; }
+				}
+				@keyframes blinkTextCursor {
+					from { border-right-color: rgba(255,255,255,.75); }
+					to { border-right-color: transparent; }
+				}
+				
+				/* Wave Animation */
+				.wave {
+					display: inline-block;
+					animation: wave-animation 1.5s infinite;
+					transform-origin: 70% 70%;
+				}
+				@keyframes wave-animation {
+					0% { transform: rotate(0deg); }
+					10% { transform: rotate(14deg); }
+					20% { transform: rotate(-8deg); }
+					30% { transform: rotate(14deg); }
+					40% { transform: rotate(-4deg); }
+					50% { transform: rotate(10deg); }
+					60% { transform: rotate(0deg); } 
+					100% { transform: rotate(0deg); }
+				}
+			</style>
+			<div class="container">
+				<p class="line-1 anim-typewriter">Hey there! <span class="wave">👋</span> I'm Achraf</p>
+			</div>
+		</div>
 	</foreignObject>
 </svg>
