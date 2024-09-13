@@ -14,5 +14,5 @@
 
   [![Achraf's GitHub stats](https://read-me-stats.vercel.app/api?username=AchrafYndz&theme=github_dark&show_icons=true&include_all_commits=true&show_private=true&rank_icon=github&hide=stars,contribs,issues&show=prs_merged_percentage&card_width=310px)](https://github.com/AchrafYndz/AchrafYndz)
 
-  [![Top Langs](https://read-me-stats.vercel.app/api/top-langs/?username=AchrafYndz&show_private=true&layout=compact&size_weight=0.5&count_weight=0.5&hide=typescript,jupyter%20notebook,html,css,scss&langs_count=4&card_width=435px&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+  [![Top Langs](https://read-me-stats.vercel.app/api/top-langs/?username=AchrafYndz&show_private=true&layout=compact&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html,css,scss&langs_count=6&card_width=435px&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
 </div>
