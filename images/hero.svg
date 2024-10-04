@@ -7,7 +7,6 @@
 
 				.container {
 					overflow: hidden;
-					color: rgba(255,255,255,.75);
 					font-family: 'Anonymous Pro', monospace;
 
 					width: 800px;
@@ -20,11 +19,29 @@
 				.line-1 {
 					width: 24em;
 					margin: 0 auto;
-					border-right: 2px solid rgba(255,255,255,.75);
+					border-right: 2px solid;
 					font-size: 180%;
 					text-align: center;
 					white-space: nowrap;
 					overflow: hidden;
+				}
+
+				/* Color adjustments for light and dark mode */
+				@media (prefers-color-scheme: dark) {
+					.container {
+						color: rgba(202, 211, 245, 0.75); /* Light text for dark mode */
+					}
+					.line-1 {
+						border-right-color: rgba(202, 211, 245, 0.75); /* Light border for dark mode */
+					}
+				}
+				@media (prefers-color-scheme: light) {
+					.container {
+						color: rgba(76, 79, 105, 0.75); /* Dark text for light mode */
+					}
+					.line-1 {
+						border-right-color: rgba(76, 79, 105, 0.75); /* Dark border for light mode */
+					}
 				}
 
 				/* Animation */
@@ -37,10 +54,10 @@
 					to { width: 16em; }
 				}
 				@keyframes blinkTextCursor {
-					from { border-right-color: rgba(255,255,255,.75); }
+					from { border-right-color: rgba(255, 255, 255, 0.75); }
 					to { border-right-color: transparent; }
 				}
-				
+
 				/* Wave Animation */
 				.wave {
 					display: inline-block;

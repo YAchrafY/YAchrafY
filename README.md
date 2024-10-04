@@ -2,17 +2,35 @@
 
   ![Hi there](images/hero.svg)
 
-  <a href="https://yandouzi.me" style="text-decoration: none; display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <img src="images/logo_white.png" alt="My Logo" width="30" height="auto" style="border-radius: 5%; margin-right: 10px;">
-    <strong>Check out my website</strong> &nbsp;🔗
-  </a>
+<a href="https://yandouzi.me" style="text-decoration: none; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+  <picture>
+    <source srcset="images/logo_black.png" media="(prefers-color-scheme: light)">
+    <img src="images/logo_white.png" alt="My Logo" width="30" height="auto" style="margin-right: 10px;">
+  </picture>
+  <strong>Check out my website</strong> &nbsp;🔗
+</a>
+
+<style>
+  @media (prefers-color-scheme: light) {
+    .logo {
+      content: url('images/logo_black.png');
+    }
+  }
+</style>
 
   <br>
   <br>
   <br>
 
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://read-me-stats.vercel.app/api?username=AchrafYndz&theme=macchiato&bg_color=24273a&text_color=cad3f5&icon_color=c6a0f6&title_color=8bd5ca&show_icons=true&include_all_commits=true&show_private=true&rank_icon=github&hide=stars,contribs,issues&show=prs_merged_percentage&card_width=310px">
+    <img src="https://read-me-stats.vercel.app/api?username=AchrafYndz&theme=latte&bg_color=eff1f5&text_color=4c4f69&icon_color=8839ef&title_color=179299&show_icons=true&include_all_commits=true&show_private=true&rank_icon=github&hide=stars,contribs,issues&show=prs_merged_percentage&card_width=310px" alt="Achraf's GitHub stats">
+  </picture>
 
-  [![Achraf's GitHub stats](https://read-me-stats.vercel.app/api?username=AchrafYndz&theme=github_dark&show_icons=true&include_all_commits=true&show_private=true&rank_icon=github&hide=stars,contribs,issues&show=prs_merged_percentage&card_width=310px)](https://github.com/AchrafYndz/AchrafYndz)
-
-  [![Top Langs](https://read-me-stats.vercel.app/api/top-langs/?username=AchrafYndz&show_private=true&layout=compact&size_weight=0.5&count_weight=0.5&hide=typescript,jupyter%20notebook,html,css,scss&langs_count=4&card_width=435px&theme=github_dark)](https://github.com/anuraghazra/github-readme-stats)
+  <picture>
+    <source media="(prefers-color-scheme: dark)" 
+            srcset="https://read-me-stats.vercel.app/api/top-langs/?username=AchrafYndz&theme=macchiato&bg_color=24273a&text_color=cad3f5&icon_color=c6a0f6&title_color=8bd5ca&show_private=true&layout=compact&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html,css,scss&langs_count=6&card_width=435px">
+    <img src="https://read-me-stats.vercel.app/api/top-langs/?username=AchrafYndz&theme=latte&bg_color=eff1f5&text_color=4c4f69&icon_color=8839ef&title_color=179299&show_private=true&layout=compact&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html,css,scss&langs_count=6&card_width=435px" alt="Top Languages">
+  </picture>
 </div>
