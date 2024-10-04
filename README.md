@@ -5,18 +5,10 @@
 <a href="https://yandouzi.me" style="text-decoration: none; display: flex; flex-direction: row; align-items: center; justify-content: center;">
   <picture>
     <source srcset="images/logo_black.png" media="(prefers-color-scheme: light)">
-    <img src="images/logo_white.png" alt="My Logo" width="30" height="auto" style="border-radius: 5%; margin-right: 10px;">
+    <img src="images/logo_white.png" alt="My Logo" width="30" height="auto" style="margin-right: 10px;">
   </picture>
   <strong>Check out my website</strong> &nbsp;🔗
 </a>
-
-<style>
-  @media (prefers-color-scheme: light) {
-    .logo {
-      content: url('images/logo_black.png');
-    }
-  }
-</style>
 
   <br>
   <br>
